@@ -7,13 +7,14 @@
 ***
 # 1) To print name.
 
-*#include<stdio.h>
+```C
+#include<stdio.h>
 void main()
 {
 puts("~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 puts("My name is Guleen Kaur Birdi");
 puts("~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-}*
+}```
 ***
 # 2) To print college address.
 
