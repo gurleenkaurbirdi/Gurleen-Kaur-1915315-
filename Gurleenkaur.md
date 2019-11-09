@@ -1,11 +1,11 @@
-
+---
 # Programming for Problem Solving
 # Name:- Gurleen Kaur Birdi
 # CRN:-1915315
 # Branch:- CSE-C1
 # submitted to :- Goldendeep Kaur Mam
 ***
-# 1) To print name.
+## 1) To print name.
 
 ```C
 #include<stdio.h>
@@ -15,8 +15,10 @@ puts("~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 puts("My name is Guleen Kaur Birdi");
 puts("~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 }
+```
 ***
-# 2) To print college address.
+## 2) To print college address.
+```C
 
 #include<stdio.h>
 int main() {
@@ -27,9 +29,10 @@ printf("\n\t\t\tLudhiana , Punjab");
 
 return 0;
 }
+```
 ***
 # 3) Program to add two numbers.
-
+```C
 #include<stdio.h>
 void main() 
 {                                      
@@ -39,9 +42,10 @@ scanf("%d%d",&a,&b);
 c=a+b;
 printf("%d=%d+%d \n",c,a,b);
 }
+```
 ***
 # 4) Program to find quotient and remainder.
-
+```C
 #include <stdio.h>
 int main()
  {
@@ -56,9 +60,10 @@ printf("Quo = %d\n", quo);
 printf("Rem = %d", rem);
  return 0;
 }
+```
 ***
 # 5) Program to swap two no.s without 3rd variable.
-
+```C
 #include <stdio.h>
 int main() 
 {                                       
@@ -70,9 +75,10 @@ int main()
  a = a - b;
  printf("a = %d\nb = %d\n",a,b);                    return 0;
 }
+```
 ***
 # 6) To check even or odd number.
-
+```C
 #include<stdio.h>
 void main()
 {
@@ -88,9 +94,10 @@ else
 printf("The number is odd");
 }
 }
+```
 ***
 # 7) Finding greatest of two numbers.
-
+```C
 #include<stdio.h>
 int main() 
 {
@@ -105,6 +112,7 @@ else
     
 return 0;
 }
+```
 ***
 # 8) To find greatest of 3 numbers.
 
