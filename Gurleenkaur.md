@@ -1121,3 +1121,72 @@ int main()
   return 0;
 }
 ```
+***
+## 33) Program for Transpose of a matrix.
+```C
+#include<stdio.h>
+int main()
+{
+int a[3][3];
+printf("Enter a 3X3 matrix: ");
+for(int i=0;i<3;i++)
+{
+for(int j=0;j<3;j++)
+{
+scanf("%d",&a[i][j]);
+}
+}
+printf("The matrix you entered is:\n");
+for(int i=0;i<3;i++)
+{
+for(int j=0;j<3;j++)
+{
+printf("%d\t",a[i][j]);
+}
+printf("\n");
+}
+printf("The transpose of the matrix is:\n ");
+for(int i=0;i<3;i++)
+{
+for(int j=0;j<3;j++)
+{
+printf("%d\t",a[j][i]);
+}
+printf("\n");
+}
+
+}
+```
+***
+## 34) Program to print the address of variable using pointer.
+```C
+#include <stdio.h>
+int main() {
+  int a;
+  int *pt;
+
+  a = 10;
+  pt = &a;
+
+  printf("\n[&a ]:Address of A = %p", &a);
+
+
+  return 0;
+}
+```
+***
+## 35) Program to access array using pointer.
+```C
+#include <stdio.h>
+int main()
+{
+   int data[5],i;
+   printf("Enter elements: ");
+   for(i = 0; i < 5; ++i)
+     scanf("%d", data + i);
+   printf("You entered: \n");
+   for(i = 0; i < 5; ++i)
+      printf("%d\n", *(data + i));
+   return 0;
+}
+```
