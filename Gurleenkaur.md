@@ -31,7 +31,7 @@ return 0;
 }
 ```
 ***
-# 3) Program to add two numbers.
+## 3) Program to add two numbers.
 ```C
 #include<stdio.h>
 void main() 
@@ -44,7 +44,7 @@ printf("%d=%d+%d \n",c,a,b);
 }
 ```
 ***
-# 4) Program to find quotient and remainder.
+## 4) Program to find quotient and remainder.
 ```C
 #include <stdio.h>
 int main()
@@ -62,7 +62,7 @@ printf("Rem = %d", rem);
 }
 ```
 ***
-# 5) Program to swap two no.s without 3rd variable.
+## 5) Program to swap two no.s without 3rd variable.
 ```C
 #include <stdio.h>
 int main() 
@@ -77,7 +77,7 @@ int main()
 }
 ```
 ***
-# 6) To check even or odd number.
+## 6) To check even or odd number.
 ```C
 #include<stdio.h>
 void main()
@@ -96,7 +96,7 @@ printf("The number is odd");
 }
 ```
 ***
-# 7) Finding greatest of two numbers.
+## 7) Finding greatest of two numbers.
 ```C
 #include<stdio.h>
 int main() 
@@ -114,8 +114,8 @@ return 0;
 }
 ```
 ***
-# 8) To find greatest of 3 numbers.
-
+## 8) To find greatest of 3 numbers.
+```C
 #include <stdio.h>
  
 void main()
@@ -141,9 +141,10 @@ void main()
     else
         printf("num3 is the greatest among three \n");
 }
+```
 ***
-# 9) Program to grade to student according to percentage.
-
+## 9) Program to grade to student according to percentage.
+```C
 #include<stdio.h>
 void main()
 { int marks;
@@ -165,9 +166,10 @@ else if(marks<=70 && marks>60)
  { printf("FAIL\n");
 }
 }
+```
 ***
-# 10) Program to print roots of quadric equation.
-
+## 10) Program to print roots of quadric equation.
+```C
 #include <stdio.h>
 #include <math.h>
  
@@ -195,9 +197,10 @@ int main()
  
   return 0;
 }
+```
 ***
-# 11) Program to check year is leap or not.
-
+## 11) Program to check year is leap or not.
+```C
 #include<stdio.h>
 int main() { 
 
@@ -225,9 +228,10 @@ else
   
   return 0;
 }
+```
 ***
-# 12) To print table of 5.
-
+## 12) To print table of 5.
+```C
 #include<stdio.h>
 
 int main() { int res;
@@ -241,9 +245,10 @@ res=5*i;
 
    return 0;
 }
+```
 ***
-# 13) To make simple calculator using switch case.
-
+## 13) To make simple calculator using switch case.
+```C
 #include <stdio.h>
  
 int main() {
@@ -278,10 +283,10 @@ printf("\n The result of %.2f %c %.2f  = %.2f", num1, Operator, num2, result);
 	
 return 0;
 }
+```
 ***
-# 14) To calculate reverse of a number.
-
-
+## 14) To calculate reverse of a number.
+```C
 #include<stdio.h>
 void main()
 int i,n,rev=0 
@@ -298,9 +303,10 @@ n=n/10; i++
 printf("The number is reversed");
 scanf("%d",&n);
  }
+```
 ***
-# 15) To check whether a no. is palindrome or not.
-
+## 15) To check whether a no. is palindrome or not.
+```C
 #include <stdio.h>
 int main()
 {
@@ -323,9 +329,10 @@ int main()
     
     return 0;
 }
+```
 ***
-# 16) To check whether a number is prime or not.
-
+## 16) To check whether a number is prime or not.
+```C
 #include <stdio.h>
 int main()
 {
@@ -355,9 +362,10 @@ int main()
     
     return 0;
 }
+```
 ***
-# 17) Program to print prime no. to 100.
-
+## 17) Program to print prime no. to 100.
+```C
 #include<stdio.h>
 
    int main(){
@@ -391,9 +399,10 @@ printf(" The prime numbers between 1 and 100 : \n");
   return 0;
 
    }
+```
 ***
-# 18) Program to check whether a no. is amstrong or not.
-
+## 18) Program to check whether a no. is amstrong or not.
+```C
 #include<stdio.h>
 void main()
 { int a,b,rem,x=0;
@@ -411,10 +420,11 @@ printf("The number is armstrong\n");
  else  
 printf("The number is not armstrong\n");
 }
+```
 ***
-# 19) Print different patterns.
+## 19) Print different patterns.
    _ pattern 1
-
+```C
 #include <stdio.h>
 int main() {
     
@@ -433,10 +443,11 @@ for(i=1; i<=r; ++i)
     }
     return 0;
 }
+```
 
 _ pattern 2
 
-
+```C
 #include <stdio.h>
 int main() {
     
@@ -454,10 +465,11 @@ int main() {
     }
     return 0;
 }
+```
 ***
-# 20) Program to find largest from 1-D array.
-
-```#include <stdio.h>
+## 20) Program to find largest from 1-D array.
+```C
+#include <stdio.h>
  
 int main()
 {
@@ -485,9 +497,10 @@ int main()
         return 0;
  
 }
+```
 ***
-# 21) To find sum of N natural numbers in an array.
-
+## 21) To find sum of N natural numbers in an array.
+```C
 #include<stdio.h>
 
 int main() {
@@ -508,9 +521,10 @@ for(c = 0; c < n; c++)
   printf("\n\nSum = %d\n\n", sum);
     return 0;
 }
+```
 ***
-# 22) Program to add two matrices.
-
+## 22) Program to add two matrices.
+```C
 #include <stdio.h>
 int main()
 {
@@ -539,3 +553,4 @@ printf("Enter the elements of second matrix\n");
 
    return 0;
 }
+```
