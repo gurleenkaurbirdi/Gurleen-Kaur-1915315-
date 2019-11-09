@@ -909,3 +909,215 @@ result=(a+b+c+d+e)/5;
 return result;
 }
 ```
+***
+## 30) Program to implement linear serach and binary.
+```C
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+int array[100],search_key,i,j,n,low,high,location,choice;
+
+  void linear_search(int search_key,int array[100],int n);
+
+  void binary_search(int search_key,int array[100],int n);
+
+  clrscr();
+
+  printf("ENTER THE SIZE OF THE ARRAY:");
+
+  scanf("%d",&n);
+
+printf("ENTER THE ELEMENTS OF THE ARRAY:\n");
+
+  for(i=1;i<=n;i++)
+  {
+  scanf("%d",&array[i]);
+
+}
+
+  printf("ENTER THE SEARCH KEY:");
+
+  scanf("%d",&search_key);
+
+  printf("___________________\n");
+
+  printf("1.LINEAR SEARCH\n");
+
+  printf("2.BINARY SEARCH\n");
+
+  printf("___________________\n");
+
+  printf("ENTER YOUR CHOICE:");
+
+  scanf("%d",&choice);
+
+  switch(choice)
+  {
+   case 1:
+      linear_search(search_key,array,n);
+       break;
+
+  case 2:      binary_search(search_key,array,n);
+  break;
+
+default:
+
+exit(0);
+
+}
+
+ return 0;
+
+}
+
+void linear_search(int search_key,int array[100],int n)
+   {
+
+int i,location;
+
+for(i=1;i<=n;i++)
+       {
+
+  if(search_key == array[i])
+           {
+
+location = i;
+
+printf("______________________________________\n");
+
+printf("The location of Search Key = %d is %d\n",search_key,location);
+
+printf("______________________________________\n");
+
+}
+
+}
+
+}
+
+void binary_search(int search_key,int array[100],int n)
+{
+
+ int mid,i,low,high;
+
+  low = 1;
+
+  high = n;
+
+mid = (low + high)/2;
+
+i=1;
+
+while(search_key != array[mid])
+{
+
+  if(search_key <= array[mid])
+{
+
+low = 1;
+
+high = mid+1;
+
+mid = (low+high)/2;
+
+ }
+       else
+       {
+
+ low = mid+1;
+   high = n;
+
+mid = (low+high)/2;
+  }
+
+}
+
+printf("__________________________________\n");
+
+printf("location=%d\t",mid);
+
+printf("Search_Key=%d Found!\n",search_key);
+
+printf("__________________________________\n");
+
+}
+```
+***
+## 31) Program to implement bubble sort.
+ ```C
+#include <stdio.h>
+ 
+int main()
+{
+  int array[100], n, c, d, swap;
+ 
+  printf("Enter number of elements\n");
+  scanf("%d", &n);
+ 
+  printf("Enter %d integers\n", n);
+ 
+  for (c = 0; c < n; c++)
+    scanf("%d", &array[c]);
+ 
+  for (c = 0 ; c < n - 1; c++)
+  {
+    for (d = 0 ; d < n - c - 1; d++)
+    {
+      if (array[d] > array[d+1]) /* For decreasing order use < */
+      {
+        swap       = array[d];
+        array[d]   = array[d+1];
+        array[d+1] = swap;
+      }
+    }
+  }
+ 
+  printf("Sorted list in ascending order:\n");
+ 
+  for (c = 0; c < n; c++)
+     printf("%d\n", array[c]);
+ 
+  return 0;
+}
+```
+***
+
+## 32) Program to store information of 10 students using array of structures.
+```C
+#include<stdio.h>
+struct student
+{
+  char name[20],address[30];
+  int grade,roll,dob;
+};
+
+int main()
+{
+  struct student s[10];
+  int i;
+  for(i=0;i<10;i++)
+  {
+    printf("\nEnter records for student[%d]\n",i+1);
+    printf("Enter name: ");
+    gets(s[i].name);
+    printf("Enter address: ");
+    gets(s[i].address);
+    printf("Enter class, roll number and date of birth(year): ");
+    scanf("%d%d%d",&s[i].grade,&s[i].roll,&s[i].dob);
+  }
+  printf("Records of the 10 students are here");
+  for(i=0;i<10;i++)
+  {
+    printf("\nStudent %d",i+1);
+    printf("\nName: %s",s[i].name);
+    printf("\nAddress: %s",s[i].address);
+    printf("\nClass: %d",s[i].grade);
+    printf("\nRoll No.: %d",s[i].roll);
+    printf("\nDOB: %d",s[i].dob);
+    printf("\n");
+  }
+  return 0;
+}
+```
