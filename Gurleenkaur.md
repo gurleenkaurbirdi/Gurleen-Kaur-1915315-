@@ -5,7 +5,7 @@
 # Branch:- CSE-C1
 # submitted to :- Goldendeep Kaur Mam
 ***
-##1) To print name.
+# 1) To print name.
 
 ```#include<stdio.h>
 void main()
@@ -15,7 +15,7 @@ puts("My name is Guleen Kaur Birdi");
 puts("~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 }```
 ***
-## 2) To print college address.
+# 2) To print college address.
 
 ```#include<stdio.h>
 int main() {
@@ -27,7 +27,7 @@ printf("\n\t\t\tLudhiana , Punjab");
 return 0;
 }```
 ***
-## 3) Program to add two numbers.
+# 3) Program to add two numbers.
 
 ```#include<stdio.h>
 void main() 
@@ -39,7 +39,7 @@ c=a+b;
 printf("%d=%d+%d \n",c,a,b);
 }```
 ***
-## 4) Program to find quotient and remainder.
+# 4) Program to find quotient and remainder.
 
 ```#include <stdio.h>
 int main()
@@ -56,7 +56,7 @@ printf("Rem = %d", rem);
  return 0;
 }```
 ***
-## 5) Program to swap two no.s without 3rd variable.
+# 5) Program to swap two no.s without 3rd variable.
 
 ```#include <stdio.h>
 int main() 
@@ -70,7 +70,7 @@ int main()
  printf("a = %d\nb = %d\n",a,b);                    return 0;
 }```
 ***
-## 6) To check even or odd number.
+# 6) To check even or odd number.
 
 ```#include<stdio.h>
 void main()
@@ -88,7 +88,7 @@ printf("The number is odd");
 }
 }```
 ***
-## 7) Finding greatest of two numbers.
+# 7) Finding greatest of two numbers.
 
 ```#include<stdio.h>
 int main() 
@@ -105,7 +105,7 @@ else
 return 0;
 }```
 ***
-## 8) To find greatest of 3 numbers.
+# 8) To find greatest of 3 numbers.
 
 ```#include <stdio.h>
  
@@ -133,7 +133,7 @@ void main()
         printf("num3 is the greatest among three \n");
 }```
 ***
-## 9) Program to grade to student according to percentage.
+# 9) Program to grade to student according to percentage.
 
 ```#include<stdio.h>
 void main()
@@ -157,7 +157,7 @@ else if(marks<=70 && marks>60)
 }
 }```
 ***
-## 10) Program to print roots of quadric equation.
+# 10) Program to print roots of quadric equation.
 
 ```#include <stdio.h>
 #include <math.h>
@@ -187,7 +187,7 @@ int main()
   return 0;
 }```
 ***
-## 11) Program to check year is leap or not.
+# 11) Program to check year is leap or not.
 
 ```#include<stdio.h>
 int main() { 
@@ -217,7 +217,7 @@ else
   return 0;
 }```
 ***
-## 12) To print table of 5.
+# 12) To print table of 5.
 
 ```#include<stdio.h>
 
@@ -233,7 +233,7 @@ res=5*i;
    return 0;
 }```
 ***
-## 13) To make simple calculator using switch case.
+# 13) To make simple calculator using switch case.
 
 ```#include <stdio.h>
  
@@ -270,7 +270,7 @@ printf("\n The result of %.2f %c %.2f  = %.2f", num1, Operator, num2, result);
 return 0;
 }```
 ***
-## 14) To calculate reverse of a number.
+# 14) To calculate reverse of a number.
 
 
 ```#include<stdio.h>
@@ -290,7 +290,7 @@ printf("The number is reversed");
 scanf("%d",&n);
  }```
 ***
-## 15) To check whether a no. is palindrome or not.
+# 15) To check whether a no. is palindrome or not.
 
 '''#include <stdio.h>
 int main()
@@ -315,7 +315,7 @@ int main()
     return 0;
 }'''
 ***
-## 16) To check whether a number is prime or not.
+# 16) To check whether a number is prime or not.
 
 #include <stdio.h>
 int main()
@@ -347,7 +347,7 @@ int main()
     return 0;
 }```
 ***
-## 17) Program to print prime no. to 100.
+# 17) Program to print prime no. to 100.
 
 ```#include<stdio.h>
 
@@ -383,7 +383,7 @@ printf(" The prime numbers between 1 and 100 : \n");
 
    }```
 ***
-## 18) Program to check whether a no. is amstrong or not.
+# 18) Program to check whether a no. is amstrong or not.
 
 ```#include<stdio.h>
 void main()
@@ -403,7 +403,7 @@ printf("The number is armstrong\n");
 printf("The number is not armstrong\n");
 }```
 ***
-## 19) Print different patterns.
+# 19) Print different patterns.
    _ pattern 1
 
 ```#include <stdio.h>
@@ -425,7 +425,7 @@ for(i=1; i<=r; ++i)
     return 0;
 }```
 
-_pattern 2
+_ pattern 2
 
 
 ```#include <stdio.h>
@@ -446,7 +446,7 @@ int main() {
     return 0;
 }```
 ***
-## 20) Program to find largest from 1-D array.
+# 20) Program to find largest from 1-D array.
 
 ```#include <stdio.h>
  
@@ -477,7 +477,7 @@ int main()
  
 }```
 ***
-## 21) To find sum of N natural numbers in an array.
+# 21) To find sum of N natural numbers in an array.
 
 ```#include<stdio.h>
 
@@ -500,7 +500,7 @@ for(c = 0; c < n; c++)
     return 0;
 }```
 ***
-## 22) Program to add two matrices.
+# 22) Program to add two matrices.
 
 ```#include <stdio.h>
 int main()
