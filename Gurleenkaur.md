@@ -784,3 +784,43 @@ void swap(int a, int b) {
     printf("Values of a and b is %d  %d\n",a,b);
 }
 ```
+***
+## 27) Program to calculate factorial of a number with and without recursion both.
+### with recursion
+```C
+#include<stdio.h>
+long int multiplyNumbers(int n);
+int main() {
+    
+int n;
+    printf("Enter a positive integer: ");
+    scanf("%d", &n);
+    printf("Factorial of %d = %ld", n, multiplyNumbers(n));
+    return 0;
+}
+long int multiplyNumbers(int n)
+{
+    if (n >= 1)
+        return n*multiplyNumbers(n-1);
+    else
+        return 1;
+}
+```
+### without recursion 
+```C
+#include <stdio.h>
+int main()
+{
+         int n, i;
+         long fact=1; 
+
+         printf(" Enter any number: ");
+         scanf("%d", &n);
+
+         for (i=1; i<=n; i++)
+         fact = fact*i;
+         printf(" Factorial = %ld", fact); 
+
+        return 0;
+} 
+```
