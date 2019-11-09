@@ -824,3 +824,69 @@ int main()
         return 0;
 } 
 ```
+***
+## 28) Program to print fibonacci series with and without recursion both.
+### with recursion
+```C
+#include<stdio.h>
+void series(int);		
+
+int main() {
+
+  int n;
+
+printf("\n\nEnter the number of terms you wish.......");
+  scanf("%d",&n);
+  printf("\n\n");
+
+  series(n);		
+  printf("\n\n\n");
+
+  return 0;
+}
+
+void series(int n)		
+
+{
+   int t1=0,t2=1,next;
+
+   for(int i=0;i<=n;i++)
+  {
+    printf("%d\t",t1);
+
+    next=t1+t2;
+    t1=t2;
+    t2=next;
+  }
+}
+```
+### without recursion
+```C
+#include<stdio.h>
+
+int fibo(int n);
+int main(){
+int n,i=0,c;
+printf("Enter a number: ");
+
+scanf("%d",&n);
+printf("Fibonacci series:\n");
+for(c=1;c<=n;c++)
+     {
+     printf("%d\n",fibo(i));
+     i=i+1;
+     }
+return 0;
+
+
+}
+int fibo(int n){
+if(n==0)
+return 0;
+else if(n==1)
+return 1;
+else
+return (fibo(n-1)+fibo(n-2));
+
+}
+```
