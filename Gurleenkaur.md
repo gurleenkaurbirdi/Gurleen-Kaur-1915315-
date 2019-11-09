@@ -14,7 +14,7 @@ void main()
 puts("~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 puts("My name is Guleen Kaur Birdi");
 puts("~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-}```
+}
 ***
 # 2) To print college address.
 
