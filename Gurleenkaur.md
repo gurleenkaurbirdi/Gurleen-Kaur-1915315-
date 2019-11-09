@@ -890,3 +890,22 @@ return (fibo(n-1)+fibo(n-2));
 
 }
 ```
+***
+## 29) Program to calculate average of 5 numbers using function.
+```C
+#include<stdio.h>
+int average();
+void main(){
+int avg;
+avg=average();
+printf("The average of five numbers is: %d\n",avg$
+}
+int average()
+{
+int a,b,c,d,e,result;
+printf("Enter the five numbers: ");
+scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
+result=(a+b+c+d+e)/5;
+return result;
+}
+```
