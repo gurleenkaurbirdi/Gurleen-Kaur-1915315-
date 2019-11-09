@@ -7,7 +7,7 @@
 ***
 # 1) To print name.
 
-#include<stdio.h>
+```#include<stdio.h>
 void main()
 {
 puts("~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
