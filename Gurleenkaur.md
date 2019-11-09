@@ -7,7 +7,7 @@
 ***
 # 1) To print name.
 
-```#include<stdio.h>
+#include<stdio.h>
 void main()
 {
 puts("~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
@@ -17,7 +17,7 @@ puts("~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 ***
 # 2) To print college address.
 
-```#include<stdio.h>
+#include<stdio.h>
 int main() {
 
 printf("\n\t\t\tGuru Nanak Dev Engineering College,");
@@ -29,7 +29,7 @@ return 0;
 ***
 # 3) Program to add two numbers.
 
-```#include<stdio.h>
+#include<stdio.h>
 void main() 
 {                                      
 int a,b,c;
@@ -41,7 +41,7 @@ printf("%d=%d+%d \n",c,a,b);
 ***
 # 4) Program to find quotient and remainder.
 
-```#include <stdio.h>
+#include <stdio.h>
 int main()
  {
 int a, b, quo,rem;
@@ -58,7 +58,7 @@ printf("Rem = %d", rem);
 ***
 # 5) Program to swap two no.s without 3rd variable.
 
-```#include <stdio.h>
+#include <stdio.h>
 int main() 
 {                                       
  int a, b;
@@ -72,7 +72,7 @@ int main()
 ***
 # 6) To check even or odd number.
 
-```#include<stdio.h>
+#include<stdio.h>
 void main()
 {
 int a;
@@ -90,7 +90,7 @@ printf("The number is odd");
 ***
 # 7) Finding greatest of two numbers.
 
-```#include<stdio.h>
+#include<stdio.h>
 int main() 
 {
     int a,b;
@@ -103,11 +103,11 @@ else
         printf("\nB is largest.....");
     
 return 0;
-}```
+}
 ***
 # 8) To find greatest of 3 numbers.
 
-```#include <stdio.h>
+#include <stdio.h>
  
 void main()
 {
@@ -131,11 +131,11 @@ void main()
         printf("num2 is the greatest among three \n");
     else
         printf("num3 is the greatest among three \n");
-}```
+}
 ***
 # 9) Program to grade to student according to percentage.
 
-```#include<stdio.h>
+#include<stdio.h>
 void main()
 { int marks;
  printf("Enter marks:");
@@ -155,11 +155,11 @@ else if(marks<=70 && marks>60)
  else
  { printf("FAIL\n");
 }
-}```
+}
 ***
 # 10) Program to print roots of quadric equation.
 
-```#include <stdio.h>
+#include <stdio.h>
 #include <math.h>
  
 int main()
@@ -185,11 +185,11 @@ int main()
   }
  
   return 0;
-}```
+}
 ***
 # 11) Program to check year is leap or not.
 
-```#include<stdio.h>
+#include<stdio.h>
 int main() { 
 
   int year,temp;
@@ -215,11 +215,11 @@ else
    }
   
   return 0;
-}```
+}
 ***
 # 12) To print table of 5.
 
-```#include<stdio.h>
+#include<stdio.h>
 
 int main() { int res;
 
@@ -231,11 +231,11 @@ res=5*i;
    }
 
    return 0;
-}```
+}
 ***
 # 13) To make simple calculator using switch case.
 
-```#include <stdio.h>
+#include <stdio.h>
  
 int main() {
 	char Operator;
@@ -268,12 +268,12 @@ switch(Operator)
 printf("\n The result of %.2f %c %.2f  = %.2f", num1, Operator, num2, result);
 	
 return 0;
-}```
+}
 ***
 # 14) To calculate reverse of a number.
 
 
-```#include<stdio.h>
+#include<stdio.h>
 void main()
 int i,n,rev=0 
 i=0;
@@ -288,11 +288,11 @@ n=n/10; i++
 }
 printf("The number is reversed");
 scanf("%d",&n);
- }```
+ }
 ***
 # 15) To check whether a no. is palindrome or not.
 
-'''#include <stdio.h>
+#include <stdio.h>
 int main()
 {
     int n, rev= 0, rem, a;
@@ -313,7 +313,7 @@ int main()
         printf("%d is not a palindrome.", a);
     
     return 0;
-}'''
+}
 ***
 # 16) To check whether a number is prime or not.
 
@@ -345,11 +345,11 @@ int main()
     }
     
     return 0;
-}```
+}
 ***
 # 17) Program to print prime no. to 100.
 
-```#include<stdio.h>
+#include<stdio.h>
 
    int main(){
 
@@ -381,11 +381,11 @@ printf(" The prime numbers between 1 and 100 : \n");
 
   return 0;
 
-   }```
+   }
 ***
 # 18) Program to check whether a no. is amstrong or not.
 
-```#include<stdio.h>
+#include<stdio.h>
 void main()
 { int a,b,rem,x=0;
  printf("Enter a number: ");
@@ -406,7 +406,7 @@ printf("The number is not armstrong\n");
 # 19) Print different patterns.
    _ pattern 1
 
-```#include <stdio.h>
+#include <stdio.h>
 int main() {
     
    int i,j,r;
@@ -428,7 +428,7 @@ for(i=1; i<=r; ++i)
 _ pattern 2
 
 
-```#include <stdio.h>
+#include <stdio.h>
 int main() {
     
    int r,i,j,num= 1;
@@ -479,7 +479,7 @@ int main()
 ***
 # 21) To find sum of N natural numbers in an array.
 
-```#include<stdio.h>
+#include<stdio.h>
 
 int main() {
     printf("\n\n\t\tStudytonight - Best place to learn\n\n\n");
@@ -502,7 +502,7 @@ for(c = 0; c < n; c++)
 ***
 # 22) Program to add two matrices.
 
-```#include <stdio.h>
+#include <stdio.h>
 int main()
 {
 int m,n,c,d,first[10][10],second[10][10],
