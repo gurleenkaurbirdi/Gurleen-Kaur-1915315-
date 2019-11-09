@@ -13,7 +13,7 @@ void main()
 puts("~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 puts("My name is Guleen Kaur Birdi");
 puts("~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-}```
+}
 ***
 # 2) To print college address.
 
@@ -25,7 +25,7 @@ printf("\n\t\t\tGill Road,");
 printf("\n\t\t\tLudhiana , Punjab");
 
 return 0;
-}```
+}
 ***
 # 3) Program to add two numbers.
 
@@ -37,7 +37,7 @@ printf("enter the numbers");
 scanf("%d%d",&a,&b);
 c=a+b;
 printf("%d=%d+%d \n",c,a,b);
-}```
+}
 ***
 # 4) Program to find quotient and remainder.
 
@@ -54,7 +54,7 @@ rem = a % b;
 printf("Quo = %d\n", quo);
 printf("Rem = %d", rem);
  return 0;
-}```
+}
 ***
 # 5) Program to swap two no.s without 3rd variable.
 
@@ -68,7 +68,7 @@ int main()
  b = a - b;
  a = a - b;
  printf("a = %d\nb = %d\n",a,b);                    return 0;
-}```
+}
 ***
 # 6) To check even or odd number.
 
@@ -86,7 +86,7 @@ else
 {
 printf("The number is odd");
 }
-}```
+}
 ***
 # 7) Finding greatest of two numbers.
 
@@ -401,7 +401,7 @@ x= x+rem*rem*rem;
 printf("The number is armstrong\n");
  else  
 printf("The number is not armstrong\n");
-}```
+}
 ***
 # 19) Print different patterns.
    _ pattern 1
@@ -423,7 +423,7 @@ for(i=1; i<=r; ++i)
         printf("\n");
     }
     return 0;
-}```
+}
 
 _ pattern 2
 
@@ -444,7 +444,7 @@ int main() {
         printf("\n");
     }
     return 0;
-}```
+}
 ***
 # 20) Program to find largest from 1-D array.
 
@@ -475,7 +475,7 @@ int main()
  
         return 0;
  
-}```
+}
 ***
 # 21) To find sum of N natural numbers in an array.
 
@@ -498,7 +498,7 @@ for(c = 0; c < n; c++)
 
   printf("\n\nSum = %d\n\n", sum);
     return 0;
-}```
+}
 ***
 # 22) Program to add two matrices.
 
@@ -529,4 +529,4 @@ printf("Enter the elements of second matrix\n");
    }
 
    return 0;
-}```
+}
