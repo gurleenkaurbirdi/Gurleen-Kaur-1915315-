@@ -3,9 +3,9 @@
 # Name:- Gurleen Kaur Birdi
 # CRN:-1915315
 # Branch:- CSE-C1
-#submitted to :- Goldendeep Kaur Mam
+# submitted to :- Goldendeep Kaur Mam
 ***
-## 1) To print name.
+##1) To print name.
 
 ```#include<stdio.h>
 void main()
