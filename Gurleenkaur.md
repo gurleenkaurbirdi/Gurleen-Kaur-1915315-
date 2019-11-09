@@ -1,3 +1,4 @@
+     
 ---
 # Programming for Problem Solving
 # Name:- Gurleen Kaur Birdi
@@ -16,6 +17,7 @@ puts("My name is Guleen Kaur Birdi");
 puts("~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 }
 ```
+Output :-![](https://ibb.co/k4pQ6wZ)
 ***
 ## 2) To print college address.
 ```C
