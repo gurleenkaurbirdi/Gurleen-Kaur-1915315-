@@ -32,6 +32,7 @@ printf("\n\t\t\tLudhiana , Punjab");
 return 0;
 }
 ```
+Output :-
 ***
 ## 3) Program to add two numbers.
 ```C
@@ -45,6 +46,7 @@ c=a+b;
 printf("%d=%d+%d \n",c,a,b);
 }
 ```
+Output:-
 ***
 ## 4) Program to find quotient and remainder.
 ```C
@@ -63,6 +65,7 @@ printf("Rem = %d", rem);
  return 0;
 }
 ```
+Output:-
 ***
 ## 5) Program to swap two no.s without 3rd variable.
 ```C
@@ -78,6 +81,7 @@ int main()
  printf("a = %d\nb = %d\n",a,b);                    return 0;
 }
 ```
+Output:-
 ***
 ## 6) To check even or odd number.
 ```C
@@ -97,6 +101,7 @@ printf("The number is odd");
 }
 }
 ```
+Output:-
 ***
 ## 7) Finding greatest of two numbers.
 ```C
@@ -115,6 +120,7 @@ else
 return 0;
 }
 ```
+Output:-
 ***
 ## 8) To find greatest of 3 numbers.
 ```C
@@ -144,6 +150,7 @@ void main()
         printf("num3 is the greatest among three \n");
 }
 ```
+Output:-
 ***
 ## 9) Program to grade to student according to percentage.
 ```C
@@ -169,6 +176,7 @@ else if(marks<=70 && marks>60)
 }
 }
 ```
+Output:-
 ***
 ## 10) Program to print roots of quadric equation.
 ```C
@@ -200,6 +208,7 @@ int main()
   return 0;
 }
 ```
+Output:-
 ***
 ## 11) Program to check year is leap or not.
 ```C
@@ -231,6 +240,7 @@ else
   return 0;
 }
 ```
+Output:-
 ***
 ## 12) To print table of 5.
 ```C
@@ -248,6 +258,7 @@ res=5*i;
    return 0;
 }
 ```
+Output:-
 ***
 ## 13) To make simple calculator using switch case.
 ```C
@@ -285,8 +296,7 @@ printf("\n The result of %.2f %c %.2f  = %.2f", num1, Operator, num2, result);
 	
 return 0;
 }
-```
-***
+```Output:-**
 ## 14) To calculate reverse of a number.
 ```C
 #include<stdio.h>
@@ -332,6 +342,7 @@ int main()
     return 0;
 }
 ```
+Output:-
 ***
 ## 16) To check whether a number is prime or not.
 ```C
@@ -365,6 +376,7 @@ int main()
     return 0;
 }
 ```
+Output:-
 ***
 ## 17) Program to print prime no. to 100.
 ```C
@@ -402,6 +414,7 @@ printf(" The prime numbers between 1 and 100 : \n");
 
    }
 ```
+Output:-
 ***
 ## 18) Program to check whether a no. is amstrong or not.
 ```C
@@ -423,6 +436,7 @@ printf("The number is armstrong\n");
 printf("The number is not armstrong\n");
 }
 ```
+Output:-
 ***
 ## 19) Print different patterns.
    - pattern 1
@@ -446,6 +460,7 @@ for(i=1; i<=r; ++i)
     return 0;
 }
 ```
+Output:-
 
 - pattern 2
 
@@ -468,6 +483,7 @@ int main() {
     return 0;
 }
 ```
+Output:-
 ***
 ## 20) Program to find largest from 1-D array.
 ```C
@@ -500,6 +516,7 @@ int main()
  
 }
 ```
+Output:-
 ***
 ## 21) To find sum of N natural numbers in an array.
 ```C
@@ -524,6 +541,7 @@ for(c = 0; c < n; c++)
     return 0;
 }
 ```
+Output:-
 ***
 ## 22) Program to add two matrices.
 ```C
@@ -556,6 +574,7 @@ printf("Enter the elements of second matrix\n");
    return 0;
 }
 ```
+Output:-
 ***
 ## 23) Multiplication of matrices.
 ```C
@@ -603,6 +622,7 @@ printf("\n");
 }
 }
 ```
+Output:-
 ***
 ## 24) Program to check whether a string is palindrome or not .
 ```C
@@ -631,6 +651,7 @@ if(c==i)
 return 0;
 }
 ```
+Output:-
 ***
 ## 25) Program to perform basic operations like lenghth of string ,string concat, string copy ,string compare and string reverse.
 ```C
@@ -722,6 +743,7 @@ int main() {
   return 0;
 }
 ```
+Output:-
 ***
 ## 26) Programs to swap two numbers using call by value and call by refernce.
 - Call by reference
@@ -754,6 +776,7 @@ void swap(int *a, int *b)
    *a = temp;
 }
 ```
+Output:-
 
 - call by value:-
 ```C
@@ -786,6 +809,7 @@ void swap(int a, int b) {
     printf("Values of a and b is %d  %d\n",a,b);
 }
 ```
+Output:-
 ***
 ## 27) Program to calculate factorial of a number with and without recursion both.
 ### with recursion
@@ -808,7 +832,9 @@ long int multiplyNumbers(int n)
         return 1;
 }
 ```
-### without recursion 
+Output:-
+
+## without recursion 
 ```C
 #include <stdio.h>
 int main()
@@ -826,6 +852,7 @@ int main()
         return 0;
 } 
 ```
+Output:-
 ***
 ## 28) Program to print fibonacci series with and without recursion both.
 ### with recursion
@@ -862,7 +889,9 @@ void series(int n)
   }
 }
 ```
-### without recursion
+Output:-
+
+## without recursion
 ```C
 #include<stdio.h>
 
@@ -892,6 +921,7 @@ return (fibo(n-1)+fibo(n-2));
 
 }
 ```
+Output:-
 ***
 ## 29) Program to calculate average of 5 numbers using function.
 ```C
@@ -911,6 +941,7 @@ result=(a+b+c+d+e)/5;
 return result;
 }
 ```
+Output:-
 ***
 ## 30) Program to implement linear serach and binary.
 ```C
@@ -1046,6 +1077,7 @@ printf("__________________________________\n");
 
 }
 ```
+Output:-
 ***
 ## 31) Program to implement bubble sort.
  ```C
@@ -1084,6 +1116,7 @@ int main()
   return 0;
 }
 ```
+Output:-
 ***
 
 ## 32) Program to store information of 10 students using array of structures.
@@ -1123,6 +1156,7 @@ int main()
   return 0;
 }
 ```
+Output:-
 ***
 ## 33) Program for Transpose of a matrix.
 ```C
@@ -1159,6 +1193,7 @@ printf("\n");
 
 }
 ```
+Output:-
 ***
 ## 34) Program to print the address of variable using pointer.
 ```C
@@ -1176,6 +1211,7 @@ int main() {
   return 0;
 }
 ```
+Output:-
 ***
 ## 35) Program to access array using pointer.
 ```C
@@ -1192,3 +1228,4 @@ int main()
    return 0;
 }
 ```
+Output:-
