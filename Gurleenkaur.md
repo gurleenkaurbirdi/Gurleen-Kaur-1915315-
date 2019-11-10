@@ -973,141 +973,48 @@ Output:-
 ## 30) Program to implement linear serach and binary.
 ```C
 #include <stdio.h>
-#include <stdlib.h>
-
-int main() {
-
-int array[100],search_key,i,j,n,low,high,location,choice;
-
-  void linear_search(int search_key,int array[100],int n);
-
-  void binary_search(int search_key,int array[100],int n);
-
-  clrscr();
-
-  printf("ENTER THE SIZE OF THE ARRAY:");
-
-  scanf("%d",&n);
-
-printf("ENTER THE ELEMENTS OF THE ARRAY:\n");
-
-  for(i=1;i<=n;i++)
-  {
-  scanf("%d",&array[i]);
-
-}
-
-  printf("ENTER THE SEARCH KEY:");
-
-  scanf("%d",&search_key);
-
-  printf("___________________\n");
-
-  printf("1.LINEAR SEARCH\n");
-
-  printf("2.BINARY SEARCH\n");
-
-  printf("___________________\n");
-
-  printf("ENTER YOUR CHOICE:");
-
-  scanf("%d",&choice);
-
-  switch(choice)
-  {
-   case 1:
-      linear_search(search_key,array,n);
-       break;
-
-  case 2:      binary_search(search_key,array,n);
-  break;
-
-default:
-
-exit(0);
-
-}
-
- return 0;
-
-}
-
-void linear_search(int search_key,int array[100],int n)
-   {
-
-int i,location;
-
-for(i=1;i<=n;i++)
-       {
-
-  if(search_key == array[i])
-           {
-
-location = i;
-
-printf("______________________________________\n");
-
-printf("The location of Search Key = %d is %d\n",search_key,location);
-
-printf("______________________________________\n");
-
-}
-
-}
-
-}
-
-void binary_search(int search_key,int array[100],int n)
+ 
+int main()
 {
-
- int mid,i,low,high;
-
-  low = 1;
-
-  high = n;
-
-mid = (low + high)/2;
-
-i=1;
-
-while(search_key != array[mid])
-{
-
-  if(search_key <= array[mid])
-{
-
-low = 1;
-
-high = mid+1;
-
-mid = (low+high)/2;
-
- }
-       else
-       {
-
- low = mid+1;
-   high = n;
-
-mid = (low+high)/2;
-  }
-
-}
-
-printf("__________________________________\n");
-
-printf("location=%d\t",mid);
-
-printf("Search_Key=%d Found!\n",search_key);
-
-printf("__________________________________\n");
-
-}
-```
+   int c, first, last, middle, n, search, array[100];
+ 
+   printf("Enter number of elements\n");
+   scanf("%d",&n);
+ 
+   printf("Enter %d integers\n", n);
+ 
+   for (c = 0; c < n; c++)
+      scanf("%d",&array[c]);
+ 
+   printf("Enter value to find\n");
+   scanf("%d", &search);
+ 
+   first = 0;
+   last = n - 1;
+   middle = (first+last)/2;
+ 
+   while (first <= last) {
+      if (array[middle] < search)
+         first = middle + 1;    
+      else if (array[middle] == search) {
+         printf("%d found at location %d.\n", search, middle+1);
+         break;
+      }
+      else
+         last = middle - 1;
+ 
+      middle = (first + last)/2;
+   }
+   if (first > last)
+      printf("Not found! %d isn't present in the list.\n", search);
+ 
+   return 0;  
+}``
 Output:-
 ***
 ## 31) Program to implement bubble sort.
- ```C
+ -binary search:-
+```C
 #include <stdio.h>
  
 int main()
@@ -1142,6 +1049,7 @@ int main()
  
   return 0;
 }
+- linear search:-
 ```
 Output:-
 ***
