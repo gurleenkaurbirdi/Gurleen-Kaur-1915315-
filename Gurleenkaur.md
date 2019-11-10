@@ -970,7 +970,47 @@ return result;
 ```
 Output:-
 ***
-## 30) Program to implement linear serach and binary.
+## 30) Program to implement bubble sort.
+```C
+#include <stdio.h>
+ 
+int main()
+{
+  int array[100], n, c, d, swap;
+ 
+  printf("Enter number of elements\n");
+  scanf("%d", &n);
+ 
+  printf("Enter %d integers\n", n);
+ 
+  for (c = 0; c < n; c++)
+    scanf("%d", &array[c]);
+ 
+  for (c = 0 ; c < n - 1; c++)
+  {
+    for (d = 0 ; d < n - c - 1; d++)
+    {
+      if (array[d] > array[d+1]) /* For decreasing order use < */
+      {
+        swap       = array[d];
+        array[d]   = array[d+1];
+        array[d+1] = swap;
+      }
+    }
+  }
+ 
+  printf("Sorted list in ascending order:\n");
+ 
+  for (c = 0; c < n; c++)
+     printf("%d\n", array[c]);
+ 
+  return 0;
+}
+```
+Output:-
+***
+## 31) Program to implement binary and linear search.
+ -binary search:-
 ```C
 #include <stdio.h>
  
@@ -1009,47 +1049,40 @@ int main()
       printf("Not found! %d isn't present in the list.\n", search);
  
    return 0;  
-}``
-Output:-
-***
-## 31) Program to implement bubble sort.
- -binary search:-
+}```
+
+- linear search:-
 ```C
 #include <stdio.h>
  
 int main()
 {
-  int array[100], n, c, d, swap;
+  int array[100], search, c, n;
  
-  printf("Enter number of elements\n");
+  printf("Enter number of elements in array\n");
   scanf("%d", &n);
  
-  printf("Enter %d integers\n", n);
+  printf("Enter %d integer(s)\n", n);
  
   for (c = 0; c < n; c++)
     scanf("%d", &array[c]);
  
-  for (c = 0 ; c < n - 1; c++)
-  {
-    for (d = 0 ; d < n - c - 1; d++)
-    {
-      if (array[d] > array[d+1]) /* For decreasing order use < */
-      {
-        swap       = array[d];
-        array[d]   = array[d+1];
-        array[d+1] = swap;
-      }
-    }
-  }
- 
-  printf("Sorted list in ascending order:\n");
+  printf("Enter a number to search\n");
+  scanf("%d", &search);
  
   for (c = 0; c < n; c++)
-     printf("%d\n", array[c]);
+  {
+    if (array[c] == search)    /* If required element is found */
+    {
+      printf("%d is present at location %d.\n", search, c+1);
+      break;
+    }
+  }
+  if (c == n)
+    printf("%d isn't present in the array.\n", search);
  
   return 0;
-}
-- linear search:-
+} 
 ```
 Output:-
 ***
