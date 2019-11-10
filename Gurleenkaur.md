@@ -1082,46 +1082,42 @@ int main()
     printf("%d isn't present in the array.\n", search);
  
   return 0;
-} 
+}
 ```
 Output:-
 ***
 
 ## 32) Program to store information of 10 students using array of structures.
 ```C
-#include<stdio.h>
-struct student
-{
-  char name[20],address[30];
-  int grade,roll,dob;
+#include <stdio.h>
+struct student{
+    char name[50];
+    int roll;
+    float marks;
 };
-
-int main()
-{
-  struct student s[10];
-  int i;
-  for(i=0;i<10;i++)
-  {
-    printf("\nEnter records for student[%d]\n",i+1);
-    printf("Enter name: ");
-    gets(s[i].name);
-    printf("Enter address: ");
-    gets(s[i].address);
-    printf("Enter class, roll number and date of birth(year): ");
-    scanf("%d%d%d",&s[i].grade,&s[i].roll,&s[i].dob);
-  }
-  printf("Records of the 10 students are here");
-  for(i=0;i<10;i++)
-  {
-    printf("\nStudent %d",i+1);
-    printf("\nName: %s",s[i].name);
-    printf("\nAddress: %s",s[i].address);
-    printf("\nClass: %d",s[i].grade);
-    printf("\nRoll No.: %d",s[i].roll);
-    printf("\nDOB: %d",s[i].dob);
-    printf("\n");
-  }
-  return 0;
+ int main(){
+    struct student s[10];
+    int i;
+    printf("Enter information of students:\n");
+    for(i=0;i<10;++i)
+    {
+        s[i].roll=i+1;
+        printf("\nFor roll number %d\n",s[i].roll);
+        printf("Enter name: ");
+        scanf("%s",s[i].name);
+        printf("Enter marks: ");
+        scanf("%f",&s[i].marks);
+        printf("\n");
+    }
+    printf("Displaying information of students:\n\n");
+    for(i=0;i<10;++i)
+    {
+     printf("\nInformation for roll number %d:\n",i+1);
+     printf("Name: ");
+     puts(s[i].name);
+     printf("Marks: %.1f",s[i].marks);
+   }
+   return 0;
 }
 ```
 Output:-
