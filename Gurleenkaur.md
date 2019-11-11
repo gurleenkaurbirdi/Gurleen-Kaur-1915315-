@@ -319,7 +319,9 @@ printf("\n The result of %.2f %c %.2f  = %.2f", num1, Operator, num2, result);
 	
 return 0;
 }
-```Output:-**
+```
+Output:-
+***
 ## 14) To calculate reverse of a number.
 ```C
 #include<stdio.h>
