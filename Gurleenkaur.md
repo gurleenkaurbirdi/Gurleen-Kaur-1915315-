@@ -1012,7 +1012,7 @@ int main()
 Output:-
 ***
 ## 31) Program to implement binary and linear search.
- -binary search:-
+ - binary search:-
 ```C
 #include <stdio.h>
  
